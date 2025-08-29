@@ -3,7 +3,7 @@
 This repository contains the source code for my personal portfolio, built with **HTML, CSS, and JavaScript** and deployed with **GitHub Pages**.
 
 🔗 **Live Site:** [https://bryxnn.github.io](https://bryxnn.github.io)  
-📄 **Resume PDF:** [Download here](Bryan_Mena_Resume.pdf)  
+📄 **Resume PDF:** [Download here](resume.pdf)  
 
 ---
 
