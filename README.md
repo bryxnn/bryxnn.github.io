@@ -32,7 +32,7 @@ It’s a showcase of my **skills, projects, and experience** — designed and bu
 - Responsive layout, dark/light themes, and smooth navigation.
 - Integrated résumé, skills, and case study sections in a polished format.
 
-### 🔍 [Bet Extractor (OCR Automation)](https://github.com/bryxnn/new-extractor)
+### 🔍 Bet Extractor (OCR Automation)
 - Built a Python tool to extract sports betting data from images using OCR.
 - Preprocessed images (resize, grayscale, contrast, denoise) with **Pillow** to improve accuracy.
 - Used **Tesseract OCR** + regex to parse text, automated clipboard copy for quick reuse.
