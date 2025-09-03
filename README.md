@@ -4,7 +4,7 @@ This repository contains the source code for my personal portfolio.
 It’s a showcase of my **skills, projects, and experience** — designed and built from scratch with **HTML, CSS, and JavaScript**, and deployed on **GitHub Pages**.
 
 🔗 **Live Site:** [https://bryxnn.github.io](https://bryxnn.github.io)  
-📄 **Résumé PDF:** [Download here](resume.pdf)  
+📄 **Resume PDF:** [Download here](resume.pdf)  
 
 ---
 
@@ -30,7 +30,7 @@ It’s a showcase of my **skills, projects, and experience** — designed and bu
 ### 🖥️ [Portfolio Website](https://github.com/bryxnn/bryxnn.github.io)
 - Designed and built this portfolio site from scratch.
 - Responsive layout, dark/light themes, and smooth navigation.
-- Integrated résumé, skills, and case study sections in a polished format.
+- Integrated resume, skills, and case study sections in a polished format.
 
 ### 🔍 Bet Extractor (OCR Automation)
 - Built a Python tool to extract sports betting data from images using OCR.
