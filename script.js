@@ -1,4 +1,3 @@
-// Active link highlight
 const sections = document.querySelectorAll('section[id]');
 const navLinks = document.querySelectorAll('.navbar a');
 
