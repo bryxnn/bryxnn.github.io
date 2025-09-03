@@ -33,7 +33,7 @@ git clone https://github.com/bryxnn/bryxnn.github.io.git
 ---
 
 ## 📸 Preview
-![Portfolio Screenshot](screenshot.png)
+![Portfolio Screenshot](images/website.png)
 
 ---
 

@@ -1,102 +1,259 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bryan Mena — Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <script defer src="script.js"></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bryan Mena — Product • Design • Engineering</title>
+  <meta name="description" content="Portfolio of Bryan Mena — Product Engineer with strengths in design, product management, and full-stack development.">
+  <meta name="theme-color" content="#0307a3" />
+  <meta property="og:title" content="Bryan Mena — Product • Design • Engineering" />
+  <meta property="og:description" content="Bryan Mena — Product Engineer | I bring design taste, product sense, and engineering craft to build ideas from 0→1.">
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
 </head>
 <body>
-    <header class="navbar">
-        <div class="logo">Bryan <span style="color:#0307a3;">Mena</span></div>
-        <nav>
-            <ul>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header>
+    <div class="container nav">
+      <div class="brand">
+        <span class="brand-dot" aria-hidden="true"></span>
+        <span>Bryan Mena</span>
+        <span class="brand-sub">• Product • Design • Engineering</span>
+      </div>
+      <nav class="nav-links">
+        <a href="#projects">Projects</a>
+        <a href="#process">Process</a>
+        <a href="#skills">Skills</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a href="#" id="toggleTheme" title="Toggle theme">☀︎/☾</a>
+      </nav>
+    </div>
+  </header>
 
-    <section class="hero">
-        <h1>Entry-level Computer Science professional focused on clean, efficient code and practical solutions.</h1>
-        <p class="subheadline">B.A. in Computer Science (FIU). Dean’s List. Bilingual (EN/ES). Skilled in Python, Java, C++, SQL, and modern web.</p>
-        <div class="buttons">
-            <a href="resume.pdf" class="btn" download>Download Resume (PDF)</a>
-            <a href="https://github.com/bryxnn" class="btn" target="_blank" rel="noopener">GitHub</a>
-            <a href="https://www.linkedin.com/in/bryan-mena-66a36129b/" class="btn" target="_blank" rel="noopener">LinkedIn</a>
+  <main class="container">
+    <section class="hero" id="home">
+      <div>
+        <h1>Computer Science Graduate with <span class="accent">design taste</span> and <span class="primary">engineering craft</span>.</h1>
+        <p class="lead">I blend product sense, deliberate design, and full‑stack execution to take ideas from raw sketch → prototype → shipped product. Comfortable in ambiguity; biased toward action.</p>
+        <div class="cta">
+          <a class="btn primary" href="resume.pdf" target="_blank" rel="noopener">⬇︎ View Resume</a>
+          <a class="btn ghost" href="#projects">See Featured Work ↓</a>
+          <a class="btn" href="mailto:menabryan35@gmail.com">✉︎ Email Me</a>
+          <a class="btn ghost" href="https://linkedin.com/in/bryan-mena-66a36129b" target="_blank" rel="noopener">LinkedIn</a>
         </div>
+        <p class="meta" style="margin-top:10px">Open to: Software Engineer / Product Engineer / Full-Stack Developer / Front-End Developer • Remote / Hybrid</p>
+        <p class="meta">✉︎ Email Me:<a href="mailto:menabryan35@gmail.com">menabryan35@gmail.com</a></p>
+      </div>
+      <aside>
+        <div class="card" aria-label="Selected highlights">
+          <div class="thumb">
+            <img src="images/website.png" alt="Portfolio website preview" style="width:100%; height:100%; object-fit:cover; border-radius:12px;">
+          </div>
+          <div style="margin-top:12px">
+            <span class="pill">LLM + Agents</span>
+            <span class="pill">Figma → Code</span>
+            <span class="pill">Next.js</span>
+          </div>
+          <p class="case">Recent work: Built and Designed my personal portfolio site (this one) using HTML, CSS, and JavaScript. Focused on clean design, responsiveness, and showcasing projects with case studies.</p>
+
+        </div>
+      </aside>
     </section>
 
     <section id="projects">
-        <h2>Projects</h2>
-        <div class="card-grid">
-            <div class="card">
-                <h3>Python Automation</h3>
-                <p>Automated repetitive data entry tasks, reducing processing time significantly.</p>
-            </div>
-            <div class="card">
-                <h3>SQL Student Records DB</h3>
-                <p>Designed and implemented a relational database to manage student records.</p>
-            </div>
-            <div class="card">
-                <h3>Portfolio Website</h3>
-                <p>This very site — built with HTML, CSS, and JavaScript. Responsive and deployed on GitHub Pages.</p>
-            </div>
+      <div class="section-head">
+        <div>
+          <div class="eyebrow">Featured Projects</div>
+          <h2 class="section-title">Show, don’t tell — case studies with outcomes</h2>
         </div>
+      </div>
+
+      <div class="grid">
+        <article class="card">
+        <div class="thumb">
+          <img src="images/website.png" alt="Portfolio website preview" style="width:100%; height:100%; object-fit:cover; border-radius:12px;">
+        </div>
+        <h3 class="card-title">Portfolio Website (0→1)</h3>
+        <p class="meta">Role: Product + Design + Full-Stack • Stack: HTML, CSS, JavaScript</p>
+        <ul class="case">
+          <li>Designed and built this responsive personal portfolio site completely from scratch.</li>
+          <li>Created a modern layout with dark/light themes, improved readability, and smooth navigation.</li>
+          <li>Integrated resume, skills, and project case studies into a polished, recruiter-friendly showcase.</li>
+        </ul>
+        <div class="meta"><span>HTML</span> • <span>CSS</span> • <span>JavaScript</span></div>
+        <div class="card-cta"><a href="https://github.com/bryxnn/bryxnn.github.io" class="btn" target="_blank" rel="noopener">View on GitHub</a></div>
+      </article>
+
+
+      <article class="card card--tall">
+        <div class="thumb thumb--auto"><img src="images/bets_extracted.png" alt="OCR output"></div>
+        <h3 class="card-title">Bet Extractor (OCR Automation)</h3>
+        <p class="meta">Role: Developer • Stack: Python, Tesseract OCR, Pillow</p>
+        <ul class="case">
+          <li>Built a Python tool to extract betting data from images using OCR.</li>
+          <li>Implemented preprocessing (resize, grayscale, contrast, denoise) for higher text accuracy.</li>
+          <li>Parsed text with regex and automated clipboard copy for fast use in workflows.</li>
+        </ul>
+        <div class="meta"><span>Python</span> • <span>OCR</span> • <span>Automation</span></div>
+      </article>
+
+      <article class="card card--tall">
+        <div class="thumb thumb--auto">
+          <img src="images/casinoslot.png" alt="Casino Slot project preview">
+        </div>
+        <h3 class="card-title">Casino Slot (Game Project)</h3>
+        <p class="meta">Role: Developer • Stack: Python</p>
+        <ul class="case">
+          <li>Built a slot machine simulator in Python with randomized spins and payouts.</li>
+          <li>Implemented betting logic, balance tracking, and result evaluation.</li>
+          <li>Designed a console-based interface for user interaction and playtesting.</li>
+        </ul>
+        <div class="meta"><span>Python</span> • <span>Game Dev</span> • <span>Simulation</span></div>
+        <div class="card-cta">
+          <a href="https://github.com/bryxnn/CasinoSlot" target="_blank" rel="noopener" class="btn">View on GitHub</a>
+        </div>
+      </article>
+    </div>
     </section>
 
-    <section id="skills">
-        <h2>Skills</h2>
-        <div class="skills">
-            <span>Python</span>
-            <span>Java</span>
-            <span>C++</span>
-            <span>SQL</span>
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>JavaScript</span>
-            <span>Git/GitHub</span>
+    <section id="process">
+      <div class="section-head">
+        <div>
+          <div class="eyebrow">How I Work</div>
+          <h2 class="section-title">Discover → Design → Build → Iterate</h2>
         </div>
+      </div>
+      <div class="process">
+        <div class="step">
+          <div class="pill">Discovery</div>
+          <h4>Talk to users & frame the problem</h4>
+          <p class="case">Lightweight interviews, define job‑to‑be‑done, clarify constraints, and write the crisp MVP spec.</p>
+        </div>
+        <div class="step">
+          <div class="pill">Design</div>
+          <h4>Wireframe & prototype with taste</h4>
+          <p class="case">Figma flows, edge cases, and system UX. Design tokens for consistency and speed.</p>
+        </div>
+        <div class="step">
+          <div class="pill">Build</div>
+          <h4>Full‑stack execution</h4>
+          <p class="case">Ship thin vertical slices end‑to‑end. Instrument analytics, logs, and tests as we go.</p>
+        </div>
+        <div class="step">
+          <div class="pill">Iterate</div>
+          <h4>Measure → learn → improve</h4>
+          <p class="case">Weekly demos, metrics reviews, and tight feedback loops to evolve the product.</p>
+        </div>
+      </div>
     </section>
 
     <section id="experience">
-        <h2>Experience</h2>
-        <div class="card">
-            <h3>General Merchandise Associate — Target</h3>
-            <p class="when">Sep 2021 – Jul 2024 • Miami, FL</p>
-            <p>Maintained store organization and customer experience in a fast‑paced environment.</p>
-            <p>Collaborated with team to meet daily goals; strong communication and reliability.</p>
+      <div class="section-head">
+        <div>
+          <div class="eyebrow">Experience</div>
+          <h2 class="section-title">Hands-on work & service</h2>
         </div>
-        <div class="card">
-            <h3>Volunteer — Positive Hits Community Service Group</h3>
-            <p class="when">Jun 2020 – Aug 2020</p>
-            <p>Community clean‑ups, food preparation, and hurricane relief donations for the Bahamas.</p>
-        </div>
+      </div>
+      <div class="grid">
+        <article class="card">
+          <h3 class="card-title">Target — General Merchandise Associate</h3>
+          <p class="meta">2021–2024</p>
+          <ul class="case">
+            <li>Maintained store organization and high customer satisfaction in a fast-paced environment.</li>
+            <li>Collaborated with team members to meet daily goals and resolve customer needs.</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3 class="card-title">Positive Hits Community Service — Volunteer</h3>
+          <p class="meta">Summer 2020</p>
+          <ul class="case">
+            <li>Supported community cleanup, food preparation, and hurricane relief efforts.</li>
+          </ul>
+        </article>
+      </div>
     </section>
 
-    <section id="education">
-        <h2>Education</h2>
-        <div class="card">
-            <h3>Florida International University — B.A. in Computer Science</h3>
-            <p class="when">Dec 2024 • Dean’s List (Fall ’23, Spring/Summer/Fall ’24)</p>
+
+    <section id="skills">
+      <div class="section-head">
+        <div>
+          <div class="eyebrow">Skills</div>
+          <h2 class="section-title">Product • Design • Engineering</h2>
         </div>
-        <div class="card">
-            <h3>Miami Dade College — Associate of Arts</h3>
-            <p class="when">Mar 2022 • American Dream Scholarship</p>
-        </div>
+      </div>
+      <div class="tags">
+        <span class="tag">Python</span><span class="tag">Java</span><span class="tag">C++</span>
+        <span class="tag">SQL</span><span class="tag">HTML</span><span class="tag">CSS</span>
+        <span class="tag">JavaScript</span><span class="tag">Git/GitHub</span>
+        <span class="tag">Linux</span><span class="tag">VS Code</span><span class="tag">Eclipse</span>
+
+        <span class="tag">Product Discovery</span>
+        <span class="tag">MVP Definition</span>
+        <span class="tag">User Research</span>
+        <span class="tag">Figma</span>
+        <span class="tag">Prototyping</span>
+        <span class="tag">Design Systems</span>
+        <span class="tag">React / Next.js</span>
+        <span class="tag">Node / Python</span>
+        <span class="tag">SQL</span>
+        <span class="tag">APIs & Integrations</span>
+        <span class="tag">LLMs / Agents</span>
+        <span class="tag">Testing & CI/CD</span>
+        <span class="tag">Analytics & Observability</span>
+      </div>
     </section>
 
+    <section id="about">
+      <div class="section-head">
+        <div>
+          <div class="eyebrow">About</div>
+          <h2 class="section-title">A Founder-Mindset Builder</h2>
+        </div>
+      </div>
+      <div class="grid grid-2">
+        <div class="card">
+          <p>Computer Science graduate (FIU, Dec 2024) — Dean’s List. Bilingual (English/Spanish). I bridge product, design, and engineering to take ideas from sketch → shipped.</p>
+          <p>I thrive in ambiguity and enjoy turning zero‑to‑one ideas into shipped products. I partner closely with users, move quickly with taste, and bring full‑stack chops to deliver thin vertical slices that create real value.</p>
+        </div>
+        <div class="card">
+          <ul class="about-list">
+            <li><b>Education:</b> B.A., Computer Science — Florida International University (Dec 2024); Dean’s List</li>
+            <li><b>Education:</b> A.A., Miami Dade College (2022) — American Dream Scholarship</li>
+            <li><b>Location:</b> USA (EST)</li>
+            <li><b>Languages:</b> English & Spanish</li>
+          </ul>
+          <div class="about-actions">
+            <a class="btn" href="resume.pdf" target="_blank" rel="noopener">Resume (PDF)</a>
+            <a class="btn ghost" href="https://github.com/bryxnn" target="_blank" rel="noopener">GitHub</a>
+            <a class="btn ghost" href="https://linkedin.com/in/bryan-mena-66a36129b" target="_blank" rel="noopener">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    
     <section id="contact">
-        <h2>Contact</h2>
-        <div class="card">
-            <p>Email: <a href="mailto:menabryan35@gmail.com">menabryan35@gmail.com</a></p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/bryan-mena-66a36129b/" target="_blank" rel="noopener">linkedin.com/in/bryan-mena-66a36129b</a></p>
-            <p>GitHub: <a href="https://github.com/bryxnn" target="_blank" rel="noopener">github.com/bryxnn</a></p>
+      <div class="section-head">
+        <div>
+          <div class="eyebrow">Contact</div>
+          <h2 class="section-title">Let’s build something</h2>
         </div>
+      </div>
+      <div class="card card-center">
+        <p class="lead">Have a problem worth solving? I’d love to jam on ideas and ship something real.</p>
+        <div class="cta cta-center">
+          <a class="btn primary" href="mailto:menabryan35@gmail.com">Email</a>
+          <a class="btn" href="https://github.com/bryxnn" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
     </section>
+  </main>
+
+  <footer>
+    <div class="container">© <span id="year"></span> Bryan Mena — Built with vanilla HTML/CSS. Palette: <span class="primary">#0307a3</span> & <span class="accent">#81D8D0</span>.</div>
+  </footer>
 </body>
 </html>
